@@ -24,8 +24,13 @@ Developer Instructions: [PICO Swan Emulator User Guide](https://developer-cn.pic
 
 To initialize the repository and download the necessary code, execute the following command in your terminal:
 
-~~~bash
-repo init -g all -u https://github.com/Pico-Developer/PICO-Emulator-manifest.git -m pico/emu-35-rom.xml
+~~~c++
+repo init -g all -u https://github.com/Pico-Developer/PICO-Emulator-manifest.git -m 
+pico/emu-35-rom.xml
+
+repo sync -cdj16
+// Use git-lfs to pull large files
+repo forall -c 'git lfs pull'
 ~~~
 
 #### Building the Emulator

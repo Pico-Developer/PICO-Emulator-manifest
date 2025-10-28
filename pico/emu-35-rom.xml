@@ -8,11 +8,11 @@
   <remove-project name="platform/prebuilts/android-emulator-build/common" />
 
   <!-- Pull the modified repositories from the pico branch -->
-  <remote alias="aosp" fetch="ssh://stone-review/pico" name="origin" />
-  <project name="external/qemu" remote="origin" revision="feature/emu-35-rom-opensource">
+  <remote fetch="https://github.com/Pico-Developer" name="origin" />
+  <project path="external/qemu" name="PICO-Emulator-qemu.git" remote="origin" revision="main">
     <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace" />
   </project>
-  <project name="hardware/google/aemu" remote="origin" revision="feature/emu-35-rom-opensource" />
-  <project name="hardware/google/gfxstream" remote="origin" revision="feature/emu-35-rom-opensource" />
-  <project name="prebuilts/android-emulator-build/common" remote="origin" revision="feature/emu-35-rom-opensource" />
+  <project path="hardware/google/aemu" name="PICO-Emulator-aemu.git" remote="origin" revision="main" />
+  <project path="hardware/google/gfxstream" name="PICO-Emulator-gfxstream.git" remote="origin" revision="main" />
+  <project path="prebuilts/android-emulator-build/common" name="PICO-Emulator-common.git" remote="origin" revision="main" lfs="true" />
 </manifest>
