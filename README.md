@@ -2,7 +2,7 @@
 
 The Pico emulator is a tool developed based on Google's open-source project AOSP, designed to replicate the PICO system's operating environment for use on PCs, including Windows, macOS, and Linux platforms. Its primary advantage is the elimination of reliance on physical PICO devices, making it ideal for a range of applications, including development, testing, and everyday usage.
 
-Developer Instructions: [PICO Swan Emulator User Guide](https://developer-cn.picoxr.com/document/unity/pico-emulator/)
+Developer Instructions: [PICO Emulator User Guide](https://developer-cn.picoxr.com/document/unity/pico-emulator/)
 
 #### Repository Structure
 
