@@ -20,6 +20,13 @@ Developer Instructions: [PICO Emulator User Guide](https://developer-cn.picoxr.c
   - **emu-35-rom.xml**: The modified manifest specifically for the PICO Emulator.
 - **README.md**: This file providing information about the project.
 
+#### Referenced Repositories
+Building upon the open-source QEMU, PICO Emulator has further enhanced and integrated its proprietary features to address the requirements of its specific use cases.
+- **qemu**: https://github.com/Pico-Developer/PICO-Emulator-qemu
+- **aemu**: https://github.com/Pico-Developer/PICO-Emulator-aemu
+- **gfxstream**: https://github.com/Pico-Developer/PICO-Emulator-gfxstream
+- **common**: https://github.com/Pico-Developer/PICO-Emulator-common
+
 #### Getting Started
 
 To initialize the repository and download the necessary code, execute the following command in your terminal:
